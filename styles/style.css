@@ -224,7 +224,7 @@ body{
     margin-left:32px;
 
 }
-/* .fourth-sec-banner{
+.fourth-sec-banner{
     width:1140px;
     height:480px;
     border:2px solid red;
@@ -233,5 +233,54 @@ body{
 .fourth-sec-banner-title{
     width:946px;
     height:113px;
+    text-align: center;
+}
+.fourth-sec-main-title{
+    width:852px;
+    height:37px;
+    font-size:32px;
+    font-weight: 900;
+    text-align: center;
+    margin-left:144px;
+    margin-top:0px;
+    
+}
+.fourth-sec-description{
+    width:852px;
+    height:52px;
+    font-size: 16px;
+    color:#0D1321;
+    margin-left: 144px;
+}
+.fourth-sec-card-design{
     display:flex;
-} */
+    justify-content:space-between;
+}
+
+.fourth-sec-div1{
+    width:364px;
+    height: 299px;
+    background: rgba(255, 76, 30, 0.05);
+    padding:40px;
+    margin:0 24px;
+    border-radius: 16px;
+}
+.fourth-sec-div2{
+    width:364px;
+    height: 299px;
+    padding:40px;
+    background: rgba(0, 76, 232, 0.05);
+    margin:0 24px;
+    border-radius: 16px;
+}
+.fourth-sec-div3{
+    width:364px;
+    height: 299px;
+    padding:40px;
+    background: rgba(255, 223, 0, 0.05);
+    margin:0 24px;
+    border-radius: 16px;
+}
+.fourth-main-title{
+    
+}
