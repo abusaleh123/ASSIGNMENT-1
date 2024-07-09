@@ -227,7 +227,7 @@ body{
 .fourth-sec-banner{
     width:1140px;
     height:480px;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin:0 auto;
 }
 .fourth-sec-banner-title{
@@ -254,33 +254,105 @@ body{
 }
 .fourth-sec-card-design{
     display:flex;
-    justify-content:space-between;
+    justify-content: center;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 
 .fourth-sec-div1{
-    width:364px;
-    height: 299px;
+    width:330px;
+    height: 285px;
     background: rgba(255, 76, 30, 0.05);
     padding:40px;
-    margin:0 24px;
+    margin-right:10px;
     border-radius: 16px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .fourth-sec-div2{
-    width:364px;
-    height: 299px;
+    width:330px;
+    height: 285px;
     padding:40px;
     background: rgba(0, 76, 232, 0.05);
-    margin:0 24px;
+    margin-right:10px;
     border-radius: 16px;
 }
 .fourth-sec-div3{
-    width:364px;
-    height: 299px;
+    width:330px;
+    height: 285px;
     padding:40px;
     background: rgba(255, 223, 0, 0.05);
-    margin:0 24px;
+    margin-right:10px;
     border-radius: 16px;
+    
 }
 .fourth-main-title{
-    
+    width:284px;
+    height:36px;
+    font-size:24px;
+    font-weight: 900;
+    color:#0D1321;
+}
+.fourth-main-description{
+    width:284px;
+    height:52px;
+    font-size:16px;
+    color:#0D1321;
+}
+
+
+.fourth-button a{
+    color:#0D1321;
+    width:284px;
+    height:19px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    margin:24px 0;
+    display:flex;
+    justify-content: flex-start;
+    border:none;
+
+}
+.fourth-button{
+    border:none;
+    background-color:#FFF6F4;
+    margin-top:24px;
+}
+.fourth-button2{
+    border:none;
+    background-color: #F2F6FE;
+    margin-top:24px;
+}
+.fourth-button2 a{
+    color:#0D1321;
+    width:284px;
+    height:19px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    margin:24px 0;
+    display:flex;
+    justify-content: flex-start;
+    border:none;
+
+}
+.fourth-button3{
+    border:none;
+    background-color: #FFFDF2;
+    margin-top:24px;
+}
+.fourth-button3 a{
+    color:#0D1321;
+    width:284px;
+    height:19px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    margin:24px 0;
+    display:flex;
+    justify-content: flex-start;
+    border:none;
 }
