@@ -468,36 +468,119 @@ body {
     margin-bottom: 24px;
     border-radius: 16px;
 }
-.fourth-image{
-    display:flex;
+
+.fourth-image {
+    display: flex;
     align-items: center;
 }
-.text-sec-main-title{
-    width:140px;
-    height:36px;
-    font-size:24px;
-    font-weight:900;
-    color:#0D1321;
-    margin:0;
+
+.text-sec-main-title {
+    width: 140px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0D1321;
+    margin: 0;
 }
-.text-sec-description{
-    width:941.22px;
-    height:52px;
-    font-size:16px;
-    color:#0D1321;
-    margin:0;
-    margin-top:12px;
+
+.text-sec-description {
+    width: 941.22px;
+    height: 52px;
+    font-size: 16px;
+    color: #0D1321;
+    margin: 0;
+    margin-top: 12px;
 }
-.fourth-first-photo a{
-    width:941px;
-    height:19px;
-    font-size:16px;
-    font-weight:bold;
-    color:#0D1321;
+
+.fourth-first-photo a {
+    width: 941px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
 
 }
-.anchor{
-    margin-top:24px;
-    border:none;
+
+.anchor {
+    margin-top: 24px;
+    border: none;
     background-color: #FFFFFF;
 }
+
+.fifth-section {
+    background-image:  url(../assets/handshake.jpg);
+    background-color: rgba(0, 0,0, 0.6);
+    background-blend-mode: overlay;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 49px auto;
+    width:1140px;
+    height:350px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-sec-main-title{
+    height:36px;
+    width:292px;
+    font-size:32px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align: center;
+    margin-left:240px;
+    /* justify-content: center; */
+}
+.fifth-sec-title{
+    width:730px;
+    height:104px;
+    margin:0 auto;
+    text-align:center;
+    color:#FFFFFF;
+    justify-content: center;
+}
+.for-padding{
+    padding: 64px 48px 64px 48px;
+}
+.fifth-sec-description{
+    width:800px;
+    height:52px;
+    font-size:16px;
+    color:#FFFFFF;
+    justify-content: center;
+}
+
+
+.input-feedback{
+    display:flex;
+    gap:16px;
+    width:684px;
+    height:57px;
+    margin-top:24px;
+}
+.input-suggestion{
+    width:548px;
+    height:57px;
+    border-radius:8px;
+    border:none;
+    Padding-left:20px;
+    font-size:16px;
+    color:#0D1321;
+    font-family:"Azeret Mono", monospace;
+
+}
+.submit{
+    width:120px;
+    height:57px;
+    color:#0D1321;
+    background-color: #FFFFFF;
+    font-size:20px;
+    font-weight: 700;
+    font-family:"Azeret Mono", monospace;
+    border:none;
+    border-radius:8px;
+
+}
+
